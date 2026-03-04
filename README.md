@@ -1,5 +1,14 @@
 <!-- Header Wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Azkha%20Mardiyan%20Muttaqien&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20AI%2FML%20Engineer&descAlignY=55&descSize=18"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Azkha%20Mardiyan%20Muttaqien&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20AI%2FML%20Engineer%20%7C%20Bandung%2C%20Indonesia%20%F0%9F%87%AE%F0%9F%87%A9&descAlignY=57&descSize=16"/>
+
+<!-- Typing SVG -->
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&height=45&lines=Building+AI+that+understands+language+%26+vision+%F0%9F%A7%A0;Multimodal+Deep+Learning+%7C+NLP+%7C+Computer+Vision;Full+Stack+Dev+%7C+Flutter+%7C+Python+%7C+Node.js;Open+to+Remote+Opportunities+%F0%9F%8C%8D" alt="Typing SVG" />
+  </a>
+</div>
+
+<br/>
 
 <!-- Social Badges -->
 <div align="center">
@@ -7,90 +16,74 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/azkha-mardiyan-muttaqien)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amardiyan257@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AzkhaM)
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](#)
-
-<br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=AzkhaM&color=blueviolet&style=flat-square&label=Profile+Views)
 ![GitHub followers](https://img.shields.io/github/followers/AzkhaM?style=flat-square&color=blueviolet)
 
 </div>
 
+---
+
+## 👨‍💻 About Me
+
+<img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="coding gif"/>
+
+🎓 &nbsp; Fresh **CS Graduate** from Telkom University (GPA: 3.38/4.00)
+
+🧠 &nbsp; Passionate about **AI, NLP & Computer Vision** for real-world impact
+
+💼 &nbsp; Ex-intern at **PT Pos Indonesia** — built corporate document systems
+
+🔬 &nbsp; Thesis: **Multimodal Cyberbullying Detection** using CNN-BiLSTM (82.40% acc)
+
+🌱 &nbsp; Currently leveling up in **Next.js, FastAPI & MLOps**
+
+🤝 &nbsp; Open to **Remote Work, Freelance & Open Source Collabs**
+
+📍 &nbsp; Based in **Bandung, West Java, Indonesia** 🇮🇩
+
+📬 &nbsp; Reach me at **amardiyan257@gmail.com**
+
+⚡ &nbsp; Fun fact: I labeled **43,937 tweets** with a team of 5 to train my thesis model!
+
+<br clear="right"/>
+
+---
+
+## 🚀 Flagship Project — Undergraduate Thesis
+
+<div align="center">
+
+### 🛡️ Multimodal Cyberbullying Detection on X (Twitter)
+**CNN-BiLSTM + MobileNetV2 + Firefly Algorithm Optimization**
+
+</div>
+
+> Built a deep learning system to detect cyberbullying on Indonesian Twitter using both **text and image** (multimodal). Addressed vocabulary mismatch from Indonesian slang using Word2Vec corpus expansion. Applied **Firefly Algorithm** for automated hyperparameter tuning.
+
 <br/>
 
-<!-- Typing SVG -->
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&multiline=false&width=700&height=45&lines=Building+AI+that+understands+language+%26+vision+%F0%9F%A7%A0;Multimodal+Deep+Learning+%7C+NLP+%7C+Computer+Vision;Full+Stack+Dev+%7C+Flutter+%7C+Python+%7C+Node.js;Open+to+Remote+Opportunities+%F0%9F%8C%8D" alt="Typing SVG" />
-  </a>
-</div>
+| Metric | Score | Description |
+|:------:|:-----:|:------------|
+| 🎯 **Accuracy** | **82.40%** | Final multimodal + Firefly optimized |
+| 📊 **Precision** | **79.12%** | Correctly identified cyberbullying |
+| 🔁 **Recall** | **76.30%** | Cyberbullying cases successfully detected |
+| 📈 **F1-Score** | **77.47%** | Harmonic mean of precision & recall |
+| ⚡ **Improvement** | **+9.03%** | Total gain from initial baseline (73.37%) |
 
----
+<br/>
 
-## 🧬 About Me
+| Component | Detail |
+|:----------|:-------|
+| 📦 Dataset | 43,937 Indonesian tweets labeled by 5 annotators (majority voting) |
+| 🧠 Text Model | CNN-BiLSTM + Word2Vec expanded with 59,518 news articles |
+| 👁️ Vision Model | MobileNetV2 pretrained on ImageNet (feature extractor) |
+| 🔗 Fusion Method | Late Fusion via Concatenation → 512-dim multimodal vector |
+| ⚙️ Optimizer | Firefly Algorithm (metaheuristic) — +5.90% over baseline |
 
-```python
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+<br/>
 
-class AzkhaMardiyan:
-    """
-    Fresh CS Graduate | AI/ML Researcher | Full Stack Developer
-    Telkom University, Bandung — Indonesia 🇮🇩
-    """
-
-    PROFILE = {
-        "name"        : "Azkha Mardiyan Muttaqien",
-        "roles"       : ["Full Stack Developer", "AI/ML Engineer", "NLP Researcher"],
-        "education"   : "B.Sc. Computer Science, Telkom University (GPA: 3.38/4.00)",
-        "location"    : "📍 Bandung, West Java, Indonesia",
-        "languages"   : {"Indonesian": "Native 🇮🇩", "English": "Advanced 🌐"},
-        "open_to"     : ["Remote Work", "Freelance", "Collaborations"],
-        "contact"     : "amardiyan257@gmail.com",
-    }
-
-    CURRENTLY = {
-        "building"    : "AI-powered web & mobile applications",
-        "learning"    : ["Next.js", "FastAPI", "MLOps", "LLM Fine-tuning"],
-        "researching" : "Multimodal AI for Indonesian social media content",
-        "fun_fact"    : "Labeled 43,937 tweets with a team to train my thesis model 😄",
-    }
-
-    def __str__(self):
-        return f"👋 Hi! I'm {self.PROFILE['name']} — let's build something amazing!"
-
-print(AzkhaMardiyan())
-```
-
----
-
-## 🏆 Flagship Project — Undergraduate Research
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║   🛡️  MULTIMODAL CYBERBULLYING DETECTION ON X (TWITTER)             ║
-║       CNN-BiLSTM + MobileNetV2 + Firefly Algorithm                   ║
-╠══════════════════════════════════════════════════════════════════════╣
-║  🎯 Accuracy    │  82.40%  (+9.03% from baseline)                    ║
-║  📊 Precision   │  79.12%                                            ║
-║  🔁 Recall      │  76.30%                                            ║
-║  📈 F1-Score    │  77.47%                                            ║
-╠══════════════════════════════════════════════════════════════════════╣
-║  📦 Dataset     │  43,937 Indonesian tweets (text + image)           ║
-║  🧠 NLP Model   │  CNN-BiLSTM + Word2Vec (59,518 news articles)      ║
-║  👁️  CV Model   │  MobileNetV2 (ImageNet pretrained)                 ║
-║  ⚡ Optimizer   │  Firefly Algorithm (metaheuristic)                 ║
-║  🔗 Fusion      │  Late Fusion via Concatenation (512-dim vector)    ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
-> **Problem:** Unimodal detection fails on sarcastic memes & offensive images with neutral captions.
-> **Solution:** Combined text (CNN-BiLSTM + Word2Vec) + visual (MobileNetV2) features via **late fusion**.
-> **Result:** Highest reported accuracy for Indonesian cyberbullying detection on Twitter. 🥇
+**Tech Stack:**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
@@ -104,47 +97,47 @@ print(AzkhaMardiyan())
 
 ## 💼 Work Experience
 
-<table>
+<table width="100%">
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🏢 PT Pos Indonesia (Persero)
 **Frontend & Backend Developer Intern**
 `Jul 2025 – Aug 2025 · Bandung`
 
 - 📄 Built **Corporate Document Management System**
-- ⚙️ Full-stack feature implementation
-- 🔗 System flow design & data integration
-- 🧪 Functional testing & debugging
+- ⚙️ Implemented full-stack frontend & backend features
+- 🔗 Designed system flow & data integration
+- 🧪 Functional testing & collaborative debugging
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🎓 Telkom Sulbagsel (Industry Collab)
 **Application Developer**
 `Oct 2025 – Jan 2026`
 
-- 👥 Intern Management Application
-- 📋 Requirements analysis with partner
-- 🛠️ Participant, mentor & admin features
-- ✅ Team-based QA & testing
+- 👥 Developed **Intern Management Application**
+- 📋 Requirements analysis with industry partner
+- 🛠️ Implemented participant, mentor & admin features
+- ✅ Team-based design, development & QA testing
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🤖 SMP & SMA IT Al-Huda Sukabumi
 **Robotics Assistant Mentor**
 `Jul 2018 – Jul 2022 · Sukabumi`
 
-- 🎯 Taught **50+ students** Arduino robotics
+- 🎯 Taught **50+ students** Arduino-based robotics
 - 📚 Developed electronics & programming curriculum
-- 🔧 Built projects with sensors & actuators
-- 🏆 Guided students to competition readiness
+- 🔧 Guided project builds using sensors & actuators
+- 🏆 Trained students for robotics competitions
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🏅 Achievements
 `Notable Highlights`
@@ -152,7 +145,7 @@ print(AzkhaMardiyan())
 - 🥉 **3rd Place** — Robotic Tube Sorter Competition (2021)
 - 📝 **PKM-FIF 2023** — Solar nano-city concept proposal
 - 🎤 **TEDx Telkom University** — Venue & Consumption Team
-- 👥 **PKKMB 2024** — Coordinated **8,000+ students**
+- 👥 **PKKMB 2024** — Coordinated events for **8,000+ students**
 - 🎓 **Vice President OSIS** — SMA IT Al-Huda (2020–2021)
 
 </td>
@@ -219,37 +212,15 @@ print(AzkhaMardiyan())
 
 ---
 
-## 🏅 GitHub Trophies
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=AzkhaM&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
-## 🌱 What I'm Up To
+## 🌱 Currently
 
 <div align="center">
 
 | 🔭 Building | 📚 Learning | 🤝 Open To |
 |:-----------:|:-----------:|:----------:|
-| AI-powered apps & APIs | Next.js · FastAPI · MLOps | Remote Work |
-| Flutter mobile apps | LLM Fine-tuning | Freelance Projects |
-| NLP tools for Indonesian | Docker · CI/CD | Open Source Collab |
-
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-![Snake animation](https://github.com/AzkhaM/AzkhaM/blob/output/github-contribution-grid-snake-dark.svg)
-
-> _Note: Set up the snake animation workflow in your repo — instructions in pinned gist!_
+| AI-powered web & mobile apps | Next.js · FastAPI | Remote Work |
+| NLP tools for Indonesian content | MLOps · Docker | Freelance Projects |
+| Full stack portfolio projects | LLM Fine-tuning | Open Source Collab |
 
 </div>
 
@@ -260,10 +231,8 @@ print(AzkhaMardiyan())
 
 <div align="center">
 
-### 💬 Let's Connect!
-
 *"The best way to predict the future is to build it."*
 
-⭐ **If you find my work useful, consider giving a star!** ⭐
+**⭐ If you find my work useful, consider leaving a star! ⭐**
 
 </div>
